@@ -17,4 +17,4 @@ apt-get update && \
 apt-get -y install docker-ce
 RUN apt-get install -y docker-ce
 RUN usermod -a -G docker jenkins
-USER Jenkins
+USER jenkins
